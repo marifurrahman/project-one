@@ -1,0 +1,304 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+}
+
+/* Header Text Start */
+.header-text{
+    padding: 40px 0px;
+    margin-right: 80px;
+}
+.header-text h1{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.header-text span{
+    color: #FF5959;
+}
+
+.header-text p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orchid, tomato);
+    background-color: orchid;
+    color: white;
+    padding:10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.bottom-p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.header-image{
+    width: 40%; 
+}
+
+.header-image img{
+    width: 100%;
+    height: 70%;
+    margin: 0px 20px 0px 250px
+}
+/* Header Text End */
+
+/*My Mission Section Start*/
+
+.my-mission{
+    width: 100%;
+}
+
+.my-mission h1{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.my-mission h1 span{
+    color: #FF5959;
+}
+
+.my-missiion-box{
+    width: 30%;
+    border-radius: 15px;
+    padding: 5px 35px;
+    margin: 0px 30px 0px 20px;
+}
+.cl1{
+    background: #EDF5F6;
+}
+.cl2{
+    background: #FFEEEE;
+}
+.cl3{
+    background: #FFF4D6;
+}
+.my-missiion-box img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+.my-missiion-box h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.my-missiion-box p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.develop-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.dev-img{
+    width: 40%;
+}
+
+.dev-img{
+    width: 30%; 
+}
+
+.dev-img img{
+    width: 100%;
+    margin: 0px 0px 0px 25px;
+}
+
+.develop-text{
+    width: 40%; 
+}
+/*My Mission Section End*/
+
+/* Develop Start */
+
+.develop-image{
+    width: 50%;  
+}
+
+.develop-image img{
+    width: 350px;
+    height: 350px;
+    margin: 80px 0px 0px 20px;
+
+}
+.develop-text{
+    width: 100%;
+    padding: 100px 55px;
+}
+
+
+.develop-text h1{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.develop-text span{
+    color: #FF5959;
+}
+
+.develop-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orchid, tomato);
+    background-color: orchid;
+    color: white;
+    padding:10px 60px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/* Develop End */
+
+
+/* My Service Section Start */
+
+
+.myservice-text{
+    width: 100%;
+    padding: 100px 25px;
+}
+.myservice-text h1{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700; 
+}
+
+.myservice-text span{
+    color: #FF5959;
+}
+
+.myservice-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orchid, tomato);
+    background-color: orchid;
+    color: white;
+    padding:10px 60px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.myservice-image{
+    width: 50%; 
+}
+
+.myservice-image img{
+    width: 350px;
+    height: 350px;
+    margin: 80px 0px 0px 20px;
+}
+
+/* My Service Section End */
+
+/* Testimonial Start */
+
+.my-testimonial{
+    width: 100%;
+}
+
+.my-testimonial h1{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.my-testimonial h1 span{
+    color: #FF5959;
+}
+
+
+.testimonial-image{
+    width: 50%; 
+    padding: 10px 0px 70px 0px;
+}
+
+.testimonial-image img{
+    width: 35%;
+    height: 65%;
+    margin: 10px 0px 0px 180px;
+
+}
+.testimonial-text{
+    width: 100%;
+}
+
+
+.testimonial-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+.testimonial-text .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orchid, tomato);
+    background-color: orchid;
+    color: white;
+    padding:10px 25px;
+    font-weight: 700;
+    border-radius: 5px; 
+}
+
+
+/* Testimonial End */
+
+/* Footer Start */
+.footer-section{
+    width: 100%;
+    background-color: #0B0D17;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.footer-section h1{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.footer-section span{
+    color: #FF5959; 
+}
+.footer-section p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #82A5C0; 
+}
+
+/* Footer End */
